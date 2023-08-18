@@ -55,9 +55,10 @@ li {
     font-size: 40px;
   }
 
-  figure {
-    object-fit: cover;
-  }
-  .pic img {
+  .circle {
     border-radius: 50%;
+  }
+  .pic_frame {
+    display: inline-block;
+    text-align: center;
   }
