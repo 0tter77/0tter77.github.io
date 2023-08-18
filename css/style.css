@@ -54,3 +54,10 @@ li {
   .big {
     font-size: 40px;
   }
+
+  figure {
+    width: 180px;
+  }
+  .pic img {
+    border-radius: 90px;
+  }
