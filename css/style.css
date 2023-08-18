@@ -57,6 +57,8 @@ li {
 
   figure {
     width: 180px;
+    height: 300px;
+    object-fit: cover;
   }
   .pic img {
     border-radius: 90px;
