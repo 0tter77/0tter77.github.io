@@ -6,12 +6,14 @@
 body {
     font-family: monospace;
 }
-
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
 img {
-
-  max-width: 100%; /*この記述で画面幅の100%の幅で画像を表示する*/
-  height: auto; /*高さはautoで画像の最適化表示*/
-
+    width: 100%;
+    height: auto;
 }
 
 li {

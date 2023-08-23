@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>マップから検索</title>
         <link rel="stylesheet" href="../css/style.css">  
-        <script src="../js/app.js"></script>      
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>    
     </head>
     <body>
         <h1>園内マップ</h1>
@@ -23,6 +24,8 @@
             <area shape="rect" coords="29, 557, 357, 674" href="./area/rocky_area.html" alt="マップを表示しています。">
 	    </map>
 
-        
+        <script>
+            $('img[usemap]').rwdImageMaps();
+        </script>
     </body>
 </html>
