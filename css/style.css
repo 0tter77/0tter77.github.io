@@ -11,6 +11,12 @@ body {
     margin: 0;
     padding: 0;
 }
+body {
+  background-image: url("../png/wao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 img {
     width: 100%;
     height: auto;
